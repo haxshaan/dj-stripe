@@ -3971,7 +3971,6 @@ class Migration(migrations.Migration):
             name="account_holder_name",
             field=models.TextField(
                 blank=True,
-                default="",
                 help_text="The name of the person or business that owns the bank account.",
                 max_length=5000,
             ),
